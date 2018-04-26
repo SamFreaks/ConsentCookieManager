@@ -1,0 +1,15 @@
+ {
+    "name": "Consent Cookie Manager",
+    "version": "0.1",
+    "description": "Manage IABE consent cookies for GDPR compliance",
+    "manifest_version": 2,
+    "permissions": [
+      "cookies",
+      "*://*.google.com/" //need sites that we will set cookies on.
+    ],
+    "browser_action": {
+      "default_title": "Consent Cookie Manager",
+      "default_icon": "icon-32.png",
+      "default_popup": "popup.html"
+    }
+  }
